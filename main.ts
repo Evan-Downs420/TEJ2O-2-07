@@ -2,25 +2,24 @@
  *
  * Created by: Evan
  * Created on: Mar 2026
- * This program will make cookies
+ * This program will make cookies.
 */
 
-basic.clearScreen()
-basic.showIcon(IconNames.Happy)
-
+//Variable
 let cookies: number = 0
 
+//clear 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-//functions
+//function A
 input.onButtonPressed(Button.A, function () {
-    cookies = cookies + 1
-    basic.showNumber(cookies)
+  cookies = cookies + 1
+  basic.showNumber(cookies)
 })
 
+//function B
 input.onButtonPressed(Button.B, function () {
-    cookies = 0
-    basic.showNumber(cookies)
+  cookies = 0
+  basic.showNumber(cookies)
 })
-
