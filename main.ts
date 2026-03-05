@@ -5,20 +5,20 @@
  * This program will make cookies.
 */
 
-//Variable
+// variable
 let cookies: number = 0
 
-//clear 
+// clear 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-//function A
+// press A
 input.onButtonPressed(Button.A, function () {
   cookies = cookies + 1
   basic.showNumber(cookies)
 })
 
-//function B
+// press B
 input.onButtonPressed(Button.B, function () {
   cookies = 0
   basic.showNumber(cookies)
